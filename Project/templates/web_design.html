@@ -1,6 +1,6 @@
 <html>
     <body>
-        <img src = "https://s3.amazonaws.com/blab-impact-published-production/0s9rxTatAqBSr3LCoqvqHuR5VLt4Ht5M" alt ="smo.com logo" width = "600" text-align: center>
+        <img src = "https://s3.amazonaws.com/blab-impact-published-production/0s9rxTatAqBSr3LCoqvqHuR5VLt4Ht5M" alt ="smo.com logo" width = "600" >
         <h1> About the company: </h1>
         <p>Smol is a UK-based company founded in 2017 that specializes in eco-friendly household cleaning products. We delivers highly concentrated laundry and dishwasher capsules directly to customers, minimizing packaging waste and carbon emissions.
             Our products are designed to be compact, water-soluble, and made from recycled materials, aligning with their sustainability mission. We have raised over $54 million in funding from investors like Balderton Capital and Eight Roads Ventures, and is valued at approximately £96 million.
@@ -18,15 +18,18 @@
     
         <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRh9rfq9tNhyDnNCBAYKEoviwhu977logG-XzzVfsJcv_mrnOwRNJ806zd74fZnI3egBE4qTMU5CeCSvsjSHXN8BRwRIN3K27tIoCjeO4ZX4bh4pxLjyHVqQOY" alt="Click here" width = 240>
         <p><a href="{{url_for('dishwasher')}}"> Dishwasher Tablets
-        <button type = "button"> dishwasher tablets </button></a></p>
+        <button type = "button"> Dishwasher Tablets </button></a></p>
       </a>
 
         <img src="https://images.smol.com/smol/ZvaFbbVsGrYSwEV3_foaminghandwashimagecard-2.png?auto=format,compress" alt="Click here" width = 240>
-        <a href="handwash.html"> Handwash </a>
+         <p><a href= "{{ url_for('web_design')}}"> Handwash
+           <button type = "button"> Handwash </button></a></p>
       </a>
       <img src="https://images.smol.com/smol/ZxDTIoF3NbkBXqP6_bundle-fabric-conditioner.webp?auto=format,compress" alt="Click here" width = 240>
-      <a href="fabric_conditioner.html"> Fabric Conditioner </a>
+       <p><a href= "{{ url_for('web_design')}}"> Fabric Conditioner
+           <button type = "button"> Fabric Conditioner </button></a></p>
     
     
     </body>
 </html>
+
